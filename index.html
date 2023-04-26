@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Con Api Pkedex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="./script/script.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+<body>
+
+    <div class="boxContainer">
+        <div class="boxLeft">
+            <div class="rowTop">
+                <div class="rtc1"></div>
+                <div class="rtc2"></div>
+                <div class="rtc3"></div>
+                <div class="rtc4"></div>
+            </div>
+            <div class="rowMain">
+                <div class="main">
+                   
+                    <div data-poke-card class="poke-card">
+                        <div data-poke-name>Pokedex</div>
+                        <div data-poke-img-container class="img-container">
+                            <img data-poke-img class="poke-img" src="./img/poke-shadow.png"/>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="rowBot">
+                <div class="rbt">
+                    <div class="crbt1"></div>
+                    <div class="crbt2"></div>
+                    <div class="crbt3"></div>
+                </div>
+                <div class="rbb">
+                    <div class="rbb1">
+                        <form action="" onsubmit="searchPokemon(event)">
+                            <input type="text" name="pokemon" autocomplete="off">
+                        </form>
+                    </div>
+                    <div class="rbb2"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="boxRight">
+            <div class="brmain">
+                <div data-poke-id></div>
+                <div data-poke-types class="poke-types"></div>
+                <div data-poke-stats class="poke-stats"></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
